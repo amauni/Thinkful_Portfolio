@@ -1,0 +1,194 @@
+ 
+
+head {
+  background-color:#F6E8E5;
+}
+
+body {
+  background-color: #F6E8E5;
+}
+
+/*--------------------------------- HEADER -------------------------*/
+
+header {
+  background-color: #F6E8E5;
+}
+
+header h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  color: #AD7471;
+  text-align: center;
+  height: auto;
+}
+
+header h2 {
+  font-family: Courier, Verdana, monospace;
+  font-size: 16px;
+  color: #5B4F59;
+  text-align: center;
+  height: auto;
+}
+
+/*--------------------------------- MAIN -------------------------*/
+
+main {
+  background-color: #F6E8E5;
+}
+
+img {
+  width: 65%;
+  min-width: 200px;
+  max-width: 450px;
+  display: block;
+}
+
+
+main h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #7D545C;
+  text-align: center;
+  height: auto;
+}
+
+
+main h2 {
+  font-family: Courier, Verdana, monospace;
+  font-size: 15px;
+  color: #5B4F59;
+  text-align: center;
+  height: auto;
+}
+
+main h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #7D545C;
+  text-align: center;
+  height: auto;
+}
+
+main p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: #5B4F59;
+  text-align: center;
+  height: auto;
+}
+
+ul {
+  font-family: "Times New Roman", Times, serif;
+  color: #5B4F59;
+}
+
+ol {
+  font-family: "Times New Roman", Times, serif;
+  color: #5B4F59;
+}
+
+li {
+  font-size: 15px;
+}
+
+/*--------------------------------- FOOTER -------------------------*/
+
+footer {
+    background-color: #F6E8E5;
+    padding: 20px auto;
+}
+
+footer h1 {
+  font-family: Courier, Verdana, monospace;
+  font-size: 15px;
+  color: #7D545C;
+  text-align: center;
+  height: auto;
+}
+
+/*--------------------------------- LINKS -------------------------*/
+
+a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+a:link    { color: #5B4F59; }
+a:visited { color: #7D545C; }
+a:hover   { color: #AD7471; }
+a:active  { color: #c1858d; }
+
+/*--------------------------------- CONTAINERS -------------------------*/
+
+section {
+  margin: 10 auto;
+}
+
+div {
+  margin: 10 auto;
+}
+
+.img-container {
+  width: 65%;
+  background-color: #c1858d; 
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.about-container {
+  width: 65%;
+  padding: 0px 25px;
+  border: 1px solid #c1858d;
+  margin: 10px auto;
+}
+
+.container {
+  width: 65%;
+  padding: 0px;
+  margin: 10px auto;
+}
+
+
+/*--------------------------------- Media Queries -------------------------*/
+
+@media ( min-width: 426px) {
+  header h1 {
+  font-size: 50px;
+  height: 35px;
+  }
+  header h2 {
+    font-size: 20px;
+    height: 20px;
+  }
+  main h1 {
+    font-size: 18px;
+    height: auto;
+  }
+  main h2 {
+    font-size: 22px;
+    height: 20px;
+  }
+  main h3 {
+    font-size: 20px;
+    height: 20px;
+  }
+  main p {
+    font-size: 18px;
+    height: auto;
+  }
+  li {
+    font-size: 19px;
+  }
+  a {
+    font-size: 19px;
+  }
+}
+
+@media (orientation: landscape) {
+  .about-container {
+  width: 40%;
+  }
+  .container {
+  width: 35%;
+  }
+}
